@@ -18,7 +18,7 @@ function App() {
         <Route path="/searchpeople" element={<SearchPeople />} />
         <Route path="/peopledetails/:id" element={<PeopleDetails />} />
         <Route path="/searchvehicle" element={<Vehicle />} />
-        <Route path="/locate" element={<Locate />} />
+        <Route path="/locate/:id" element={<Locate />} />
       </Routes>
       
     </BrowserRouter>
