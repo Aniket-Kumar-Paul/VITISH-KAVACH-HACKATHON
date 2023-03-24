@@ -16,9 +16,9 @@ export const SearchPeople: React.FC = () => {
   
   const callApi = async (input: string) => {
     try { 
-      const response = await fetch(`API_ENDPOINT_URL?q=${input}`);
-      const data = await response.json();
-      setPeopleData(data);
+      // const response = await fetch(`API_ENDPOINT_URL?q=${input}`);
+      // const data = await response.json();
+      setPeopleData(dummyPeopleData);
     } catch (error) {
       console.error(error);
     }
@@ -30,8 +30,8 @@ export const SearchPeople: React.FC = () => {
 
       {/* CARDS */}
       <div className="grid sm:gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 xl:gap-0 justify-items-center">
-        {dummyPeopleData &&
-          dummyPeopleData.map((person) => {
+        {peopleData &&
+          peopleData.map((person) => {
             return (
               // CARD
               <Card
