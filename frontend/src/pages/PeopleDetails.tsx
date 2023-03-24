@@ -9,7 +9,7 @@ export const PeopleDetails = () => {
 
   return (
     <div className="flex flex-col items-center gap-5">
-      <div className="p-5 border-2 border-blue-light rounded-2xl w-3/4 lg:w-2/3 flex flex-col">
+      <div className="p-5 border-2 border-blue-light rounded-2xl w-3/4 lg:w-2/3 xl:w-1/2 flex flex-col">
         <span className="text-2xl font-bold underline text-gray-300 mb-2">
           Person Details
         </span>
