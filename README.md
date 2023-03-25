@@ -21,9 +21,13 @@ This repositry is for the project VITISH-KAVACH Hackathon conductted by VNEST an
  - KVH-005 
  
  ## Our Understanding
- - A custom model for Indian number plate recognition would be tailored specifically to the unique characteristics of Indian number plates, such as the fonts, sizes, and colors used on them. This would result in a more accurate and efficient model compared to using a generic OCR model. By fine-tuning the pre-trained CNN architecture specifically for Indian number plate recognition, the model can achieve higher accuracy compared to a generic OCR model. For the Face Recognition System, instead of going with the classical approaches such as “dlib”, we implement models which use Contrastive Learning methodologies using Siamese Networks.
-We experiment various encoders to get best representations as possible. We typically experimented with ResNet101, ResNeXt50_32x4d, ConvNeXt, Swin and ViT.
-We use the concepts used in FaceTransformers paper to get proper embedding of the faces
+ -A custom model for Indian number plate recognition would be tailored specifically to the unique characteristics of Indian number plates, such as the fonts, sizes, and colors used on them. 
+- This would result in a more accurate and efficient model compared to using a generic OCR model. 
+- By fine-tuning the pre-trained CNN architecture specifically for Indian number plate recognition, the model can achieve higher accuracy compared to a generic OCR model. 
+- For the Face Recognition System, instead of going with the classical approaches such as “dlib”, we implement models which use Contrastive Learning methodologies using Siamese Networks.
+- We experiment various encoders to get best representations as possible. 
+- We typically experimented with ResNet101, ResNeXt50_32x4d, ConvNeXt, Swin and ViT.
+- We use the concepts used in FaceTransformers paper to get proper embedding of the faces
  
  ## Prototype
  - It is divided into three modules
