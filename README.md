@@ -4,7 +4,6 @@ This repositry is for the project VITISH-KAVACH Hackathon conductted by VNEST an
 - [Getting Started](#getting-started)
 - [Problem Statement](#problem-statement)
 - [Problem ID](#problem-id)
-- [About the Problem](#about-the-problem)
 - [Our Understanding](#our-understanding)
 - [Prototype](#prototype)
     - [Automatic Number Plate Recognition](#automatic-number-plate-recognition)
