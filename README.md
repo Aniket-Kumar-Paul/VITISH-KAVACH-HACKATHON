@@ -26,7 +26,6 @@ This repositry is for the project VITISH-KAVACH Hackathon conductted by VNEST an
 - For the Face Recognition System, instead of going with the classical approaches such as “dlib”, we implement models which use Contrastive Learning methodologies using Siamese Networks.
 - We experiment various encoders to get best representations as possible. 
 - We typically experimented with ResNet101, ResNeXt50_32x4d, ConvNeXt, Swin and ViT.
-- We use the concepts used in FaceTransformers paper to get proper embedding of the faces
  
  ## Prototype
  - It is divided into three modules
@@ -36,14 +35,12 @@ This repositry is for the project VITISH-KAVACH Hackathon conductted by VNEST an
    - Web Application
 
 ## Automatic Number Plate Recognition
-   - A custom model for Indian number plate recognition would be tailored specifically to the unique characteristics of Indian number plates, such as the fonts, sizes, and colors used on them. This would result in a more accurate and efficient model compared to using a generic OCR model.
-   
-   ![car](https://user-images.githubusercontent.com/50861092/227682124-9a500d1f-62ca-4bac-be29-d0b80e58207b.jpg)
+Here, what we try to achieve is to identify people based on the features extracted by an encoder mechanism. To get various models learn about the feature we attempt to build a __Contrastive Learning__ based methodologies to make the model learn about the similarity and the dis-similarity between different people.
 
-   ![img](https://user-images.githubusercontent.com/50861092/227682145-87a1037a-0080-4276-95f4-002ec50f52b9.jpg)
-   
-- Output
+The advantage of doing this is that:
+- The encoder learns to cluster different __"similar"__ samples together.
+    - The reason why we want to have this is because, in-case we want to use a classifier layer at the end, the final classification layer could learn a simpler hyperplane.
 
+![simclr-v2](https://miro.medium.com/v2/resize:fit:1000/format:webp/1*uJNFn4zT3U3wNZqFsQgoiA.jpeg)
 
-   ![image](https://user-images.githubusercontent.com/50861092/227682152-e449b0f6-e7a7-4cc5-9649-52d295c2a2aa.png)
-
+In our scenario, we train the encoder to learn the similar and dis-similar faces. Once, we do this, we can tell that the output of the model would be an ideal representation in the latent space and that vector alone is enough to cluster similar faces together.
