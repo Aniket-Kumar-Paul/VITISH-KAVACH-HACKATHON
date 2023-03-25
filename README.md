@@ -41,7 +41,7 @@ This repositry is for the project VITISH-KAVACH Hackathon conductted by VNEST an
    
    ![car](https://user-images.githubusercontent.com/50861092/227682124-9a500d1f-62ca-4bac-be29-d0b80e58207b.jpg)
 
-   ![WhatsApp Image 2023-03-24 at 19 14 25](https://user-images.githubusercontent.com/50861092/227682145-87a1037a-0080-4276-95f4-002ec50f52b9.jpg)
+   ![img](https://user-images.githubusercontent.com/50861092/227682145-87a1037a-0080-4276-95f4-002ec50f52b9.jpg)
    
 - Output
 
