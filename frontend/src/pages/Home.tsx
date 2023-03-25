@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import number_plate from "../images/number_plate.jpg";
+import number_plate from "../image/number_plate.jpg";
 
 export const Home: React.FC = () => {
   const navigate = useNavigate();
@@ -12,9 +12,7 @@ export const Home: React.FC = () => {
         <span className="text-blue-dark text-3xl font-bold mb-3">KAVACH</span>
 
         <span className="text-2xl">
-          A system that detects a combination of Vehicle, Driver and Number
-          Plate as a triple from a street view footage and store that
-          information for authorities.
+        Introducing our dynamic surveillance system that integrates multiple image streams to capture and process data with minimal data loss, enabling surveillance and traceability of entities.
         </span>
         </div>
 
