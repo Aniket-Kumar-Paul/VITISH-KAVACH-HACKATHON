@@ -34,7 +34,19 @@ This repositry is for the project VITISH-KAVACH Hackathon conductted by VNEST an
    - Feature Matching
    - Web Application
 
-## Automatic Number Plate Recognition
+## Automatic Number Plate Detection
+- A custom model for Indian number plate recognition would be tailored specifically to the unique characteristics of Indian number plates, such as the fonts, sizes, and colors used on them. This would result in a more accurate and efficient model compared to using a generic OCR model.
+   
+   ![car](https://user-images.githubusercontent.com/50861092/227682124-9a500d1f-62ca-4bac-be29-d0b80e58207b.jpg)
+
+   ![img](https://user-images.githubusercontent.com/50861092/227682145-87a1037a-0080-4276-95f4-002ec50f52b9.jpg)
+   
+- Output
+
+
+   ![image](https://user-images.githubusercontent.com/50861092/227682152-e449b0f6-e7a7-4cc5-9649-52d295c2a2aa.png)
+
+## Automatic Face Recognition
 Here, what we try to achieve is to identify people based on the features extracted by an encoder mechanism. To get various models learn about the feature we attempt to build a __Contrastive Learning__ based methodologies to make the model learn about the similarity and the dis-similarity between different people.
 
 The advantage of doing this is that:
