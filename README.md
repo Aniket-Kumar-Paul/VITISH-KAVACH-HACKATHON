@@ -81,4 +81,5 @@ where the person was tracked.
 
 - **Map Page** - This page takes longitudes and latitudes of wherever the person or the vehicle has been tracked and marks them down on the map.
 
-![Map](https://user-images.githubusercontent.com/50861092/227690089-b6326be6-cb5e-4bbe-a01e-a36fa51e2bd7.jpg)
+![Map](https://user-images.githubusercontent.com/87603658/227695612-a58b86b8-5729-46e4-97e3-06b96533843f.png)
+
