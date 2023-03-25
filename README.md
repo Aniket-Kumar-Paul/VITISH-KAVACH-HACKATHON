@@ -56,3 +56,21 @@ The advantage of doing this is that:
 ![simclr-v2](https://miro.medium.com/v2/resize:fit:1000/format:webp/1*uJNFn4zT3U3wNZqFsQgoiA.jpeg)
 
 In our scenario, we train the encoder to learn the similar and dis-similar faces. Once, we do this, we can tell that the output of the model would be an ideal representation in the latent space and that vector alone is enough to cluster similar faces together.
+
+## Web Application
+- Home Page - The home page has two options: Search by People and Search by Vehicle
+![Homepage](https://user-images.githubusercontent.com/50861092/227689594-f85b62c2-ef85-4e72-b8a3-5161e83adfcd.jpg)
+
+- Search People Page - This page has a search bar using which you can search a person by name and also by using ID. The ID can be a government Id like Aadhar Card. Based on that, We get the results as shown below and we can choose the required one.
+![Search Bar (People)](https://user-images.githubusercontent.com/50861092/227689751-afd93e62-1eb0-40e1-a06d-1d941ec5e4f5.jpg)
+![Search People Results](https://user-images.githubusercontent.com/50861092/227689791-6e1996cd-2340-4b29-8183-eff62538f880.jpg)
+
+- People Details Page - This page consists of all the details of the selected person and also a locate button which redirects to a map showing all the locations where the person was tracked.
+![People Details](https://user-images.githubusercontent.com/50861092/227689873-8c0ebede-045f-420e-aa86-79da54791839.jpg)
+
+- Search Vehicle Page - This page also has a search bar which can be used to search for a vehicle using the vechicle number. Based on the results, all the details of that vehicle is displayed.
+![Search Bar (Vehicle)](https://user-images.githubusercontent.com/50861092/227689953-a89825f0-7b18-4ec4-9af0-f776ea4a6ae1.jpg)
+![Vehicle Details](https://user-images.githubusercontent.com/50861092/227689946-e77c3d31-aaa5-42d0-9ebc-9c6a49a92783.jpg)
+
+- Map Page - This page takes longitudes and latitudes of wherever the person or the vehicle has been tracked and marks them down on the map.
+![Map](https://user-images.githubusercontent.com/50861092/227690089-b6326be6-cb5e-4bbe-a01e-a36fa51e2bd7.jpg)
