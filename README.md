@@ -7,6 +7,9 @@ This repositry is for the project VITISH-KAVACH Hackathon conductted by VNEST an
 - [About the Problem](#about-the-problem)
 - [Our Understanding](#our-understanding)
 - [Prototype](#prototype)
+    - [Automatic Number Plate Recognition](#automatic-number-plate-recognition)
+    - [Feature Matching](#feature-matching)
+    - [Web Application](#web-application)     
 - [Architecture Diagram](#architecture-diagram)
 - [Submissions](#submissions)
 - [Authors](#authors)
@@ -23,4 +26,8 @@ We experiment various encoders to get best representations as possible. We typic
 We use the concepts used in FaceTransformers paper to get proper embedding of the faces
  
  ## Prototype
-- The idea is to create a robust surveillance system that integrates data streams from multiple sources including CCTV cameras and dashcams. The system captures snapshots at regular intervals with metadata of timestamp and location. To process the captured frames, we use ANPR and FRS systems that extract data from the images. The data is stored in a database with logs grouped based on the License Plate number of vehicles. For identification of people, we use facial similarity with a dummy id assigned to faces without a suitable match in the database. The system enables dynamic storage of both known and unknown entities with minimal data loss. The system can operate in real-time surveillance mode with the ability to raise alerts based on encountered entities. The logs can be queried to trace the movements of entities. Concerned authorities (government) can add identity metadata for unknown entities to enhance identification accuracy.
+ - It is divided into three modules
+
+   - Automatic Number Plate Recognition
+   - Feature Matching
+   - Web Application
