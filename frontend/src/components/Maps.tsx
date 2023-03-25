@@ -40,7 +40,7 @@ export const Maps: React.FC<MapProps> = ({ coordinates, id }) => {
         </div>
         <div>
           <strong>Timestamp:</strong>
-          ${Date.now()}
+          ${new Date(Date.now()).toLocaleString()}
         </div>
         </div>
         `
